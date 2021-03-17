@@ -1,0 +1,17 @@
+.menu-spacer {
+  flex: 1 1 auto;
+}
+
+.body {
+  background-image: url(../../../assets/img/grammar-featured.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+  .body {
+    background-image: url(../../../assets/img/grammar1.jpg);
+
+    background-size: cover;
+  }
+}

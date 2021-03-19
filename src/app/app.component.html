@@ -27,12 +27,27 @@
     <mat-sidenav #sidenav>
       <mat-nav-list>
         <a (click)="sidenav.toggle()" routerLink="/" mat-list-item>Close</a>
-        <a routerLink="/presentsimple" mat-list-item>Present Simple</a>
-        <a routerLink="/presentcontinuous" mat-list-item>Present Continuous</a>
-        <a routerLink="/pastsimple" mat-list-item>Past Simple</a>
-        <a routerLink="/pastcontinuous" mat-list-item>Past Continuous</a>
-        <a routerLink="/presentperfect" mat-list-item>Present Perfect</a>
-        <a routerLink="/grammarcheck" mat-list-item>Check Your Grammar</a>
+        <a (click)="sidenav.toggle()" routerLink="/presentsimple" mat-list-item
+          >Present Simple</a
+        >
+        <a
+          (click)="sidenav.toggle()"
+          routerLink="/presentcontinuous"
+          mat-list-item
+          >Present Continuous</a
+        >
+        <a (click)="sidenav.toggle()" routerLink="/pastsimple" mat-list-item
+          >Past Simple</a
+        >
+        <a (click)="sidenav.toggle()" routerLink="/pastcontinuous" mat-list-item
+          >Past Continuous</a
+        >
+        <a (click)="sidenav.toggle()" routerLink="/presentperfect" mat-list-item
+          >Present Perfect</a
+        >
+        <a (click)="sidenav.toggle()" routerLink="/grammarcheck" mat-list-item
+          >Check Your Grammar</a
+        >
       </mat-nav-list>
     </mat-sidenav>
     <div class="image"></div>

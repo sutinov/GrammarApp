@@ -19,6 +19,7 @@
         <a routerLink="/pastcontinuous" mat-button>Past Continuous</a>
         <a routerLink="/presentperfect" mat-button>Present Perfect</a>
         <a routerLink="/grammarcheck" mat-button>Check Your Grammar</a>
+        <a routerLink="/translate" mat-button>Translate</a>
       </div>
     </mat-toolbar-row>
   </mat-toolbar>
@@ -47,6 +48,9 @@
         >
         <a (click)="sidenav.toggle()" routerLink="/grammarcheck" mat-list-item
           >Check Your Grammar</a
+        >
+        <a (click)="sidenav.toggle()" routerLink="/translate" mat-list-item
+          >Translate</a
         >
       </mat-nav-list>
     </mat-sidenav>

@@ -23,6 +23,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { TranslateComponent } from './components/translate/translate.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { MatInputModule } from '@angular/material/input';
     PresentPerfectComponent,
     GrammarCheckComponent,
     HomeComponent,
+    TranslateComponent,
   ],
   imports: [
     BrowserModule,

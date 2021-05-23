@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+}
+.input {
+  text-align: center;
+}
+.output {
+  text-align: center;
+}
+.btn {
+  margin-top: 2%;
+}

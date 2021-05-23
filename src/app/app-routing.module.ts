@@ -8,6 +8,7 @@ import { PastContinuousComponent } from '../app/components/past-continuous/past-
 import { PresentPerfectComponent } from '../app/components/present-perfect/present-perfect.component';
 import { GrammarCheckComponent } from '../app/components/grammar-check/grammar-check.component';
 import { HomeComponent } from '../app/components/home/home.component';
+import { TranslateComponent } from '../app/components/translate/translate.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'pastcontinuous', component: PastContinuousComponent },
   { path: 'presentperfect', component: PresentPerfectComponent },
   { path: 'grammarcheck', component: GrammarCheckComponent },
+  { path: 'translate', component: TranslateComponent },
 ];
 
 @NgModule({

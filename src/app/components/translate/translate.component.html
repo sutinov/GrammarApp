@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="input">
+    <label for="text"><h3>Enter text:</h3></label><br />
+    <textarea
+      type="text"
+      class="input"
+      (input)="text = $event.target.value"
+      maxlength="150"
+    ></textarea>
+    <br />
+    <button mat-flat-button color="primary" (click)="submit()">
+      Translate
+    </button>
+  </div>
+
+  <div class="output">
+    <h1>{{ translatedText }}</h1>
+  </div>
+</div>
